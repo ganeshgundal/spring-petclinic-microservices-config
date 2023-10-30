@@ -23,7 +23,7 @@ spring:
     activate:
       on-profile: docker
   zipkin:
-    baseUrl: http://tracing-server:9411
+    baseUrl: http://ge.psre-grafana.com:9411
 eureka:
   client:
     serviceUrl:
